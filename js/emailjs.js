@@ -18,7 +18,7 @@ if (window.location.pathname === '/lang/pt/') {
 const sendEmail = (event) => {
 	event.preventDefault();
 
-	emailjs.sendForm('serviceFastxyzPortfolio', 'templateFastxyzPortfolio', '#contact-form', 'hS9ISc4uvj248x6XN').then(() => {
+	emailjs.sendForm('serviceNoowzPortfolio', 'templateNoowzPortfolio', '#contact-form', 'hS9ISc4uvj248x6XN').then(() => {
 		contactMessage.textContent = textContent;
 
         setTimeout(() => {
